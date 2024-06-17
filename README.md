@@ -38,8 +38,6 @@ RepLiQA is designed to support at least the following tasks:
 - Various irregularities have been observed, including code-like chunks (e.g., within angle `<>` or square `[]` brackets).
 - Scoring RepLiQA documents with [Fast-DetectGPT](https://github.com/baoguangsheng/fast-detect-gpt) results in score that are notably different from those of [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb).
 
-(Details coming soon.)
-
 
 ## Update plan:
 RepLiQA consists of five splits, to be released gradually over a year:
@@ -62,9 +60,7 @@ At term, five RepLiQA splits will be released. Because evaluating LLMs can be co
 In general, please clearly specify which RepLiQA splits were used, and report results for each split separately.
 
 ## See also
-- [https://github.com/ServiceNow/repliqa](https://github.com/ServiceNow/repliqa)
-
-(More coming soon.)
+- [https://huggingface.co/datasets/ServiceNow/repliqa](https://huggingface.co/datasets/ServiceNow/repliqa)
 
 
 ## Licensing Information
