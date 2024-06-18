@@ -7,11 +7,13 @@ Documents in RepLiQA comprise 17 topics or document categories: `Company Policie
 
 Moreover, annotations in RepLiQA are such that approximately 20% of the questions cannot be answered from the provided documents, and models are expected to indicate that an answer cannot be obtained whenever that is the case.
 
+
 ## Supported Tasks
 RepLiQA is designed to support at least the following tasks:
 - Question-Answering
 - Topic Retrieval
 - Selective Question-Answering (i.e., test for the ability to refuse to answer questions that cannot be answered from the provided context.)
+
 
 ## Data Fields
 - `document_id` (string): Uniquely identifies the **document** to which this sample pertains. Note that there are 5 questions per document, so **each `document_id` appears 5 times in the dataset**.
@@ -51,6 +53,7 @@ By construction, these splits should all be identically distributed. This gradua
 
 Comments and requests can addressed in the [discussions](https://huggingface.co/datasets/ServiceNow/repliqa/discussions).
 
+
 ## How to benchmark with RepLiQA
 At term, five RepLiQA splits will be released. Because evaluating LLMs can be costly, some authors may prefer to evaluate on a subset of the released splits. We recommend the following choices of such subsets, and :
 - (**latest**) If you evaluate on only one split, use the latest released split (**preferred evaluation setting**);
@@ -59,8 +62,13 @@ At term, five RepLiQA splits will be released. Because evaluating LLMs can be co
 
 In general, please clearly specify which RepLiQA splits were used, and report results for each split separately.
 
-## See also
-- [https://huggingface.co/datasets/ServiceNow/repliqa](https://huggingface.co/datasets/ServiceNow/repliqa)
+
+## Resources
+- (Paper) [RepLiQA: A Question-Answering Dataset for Benchmarking LLMs on Unseen Reference Content](http://arxiv.org/abs/2406.11811)
+- [RepLiQA Dataset](https://huggingface.co/datasets/ServiceNow/repliqa)
+- [Associated Code](https://github.com/ServiceNow/repliqa)
+  - [Mini-tutorial: RepLiQA samples with associated PDFs](https://github.com/ServiceNow/repliqa/blob/main/tutorial.ipynb)
+  - [Reproducing RepLiQA evaluations using openrouter.ai](https://github.com/ServiceNow/repliqa/blob/main/repliqa_eval.ipynb)
 
 
 ## Licensing Information
