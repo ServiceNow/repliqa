@@ -74,5 +74,5 @@ Copyright © ServiceNow 2023-2024
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 
 ### [Associated Code](https://github.com/ServiceNow/repliqa)
-Copyright © ServiceNow 2024
+Copyright © ServiceNow 2024  
 Licensed under [MIT License](https://github.com/ServiceNow/repliqa/blob/main/LICENSE)
