@@ -64,7 +64,10 @@ In general, please clearly specify which RepLiQA splits were used, and report re
 
 
 ## Resources
-- (Paper) [RepLiQA: A Question-Answering Dataset for Benchmarking LLMs on Unseen Reference Content](http://arxiv.org/abs/2406.11811)
+- Paper.
+  - João Monteiro, Pierre-André Noël, Étienne Marcotte, Sai Rajeswar, Valentina Zantedeschi, David Vázquez, Nicolas Chapados, Christopher Pal, and Perouz Taslakian. RepLiQA: A Question-Answering Dataset for Benchmarking LLMs on Unseen Reference Content. [*arXiv preprint arXiv:2406.11811*](http://arxiv.org/abs/2406.11811), 2024.
+- Blogpost.
+  - [RepLiQA: A more robust benchmark for QA](https://www.servicenow.com/blogs/2024/repliqa-more-robust-benchmark-qa)
 - [RepLiQA Dataset](https://huggingface.co/datasets/ServiceNow/repliqa)
 - [Associated Code](https://github.com/ServiceNow/repliqa)
   - [Mini-tutorial: RepLiQA samples with associated PDFs](https://github.com/ServiceNow/repliqa/blob/main/tutorial.ipynb)
