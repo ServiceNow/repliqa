@@ -72,6 +72,7 @@ In general, please clearly specify which RepLiQA splits were used, and report re
 - [Associated Code](https://github.com/ServiceNow/repliqa)
   - [Mini-tutorial: RepLiQA samples with associated PDFs](https://github.com/ServiceNow/repliqa/blob/main/tutorial.ipynb)
   - [Reproducing RepLiQA evaluations using openrouter.ai](https://github.com/ServiceNow/repliqa/blob/main/repliqa_eval.ipynb)
+  - [Evaluating QA fine-tuned models on RepLiQA](https://github.com/ServiceNow/repliqa/blob/main/hf_qa_eval.ipynb)
 
 
 ## Licensing Information
