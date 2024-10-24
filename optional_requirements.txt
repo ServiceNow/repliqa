@@ -5,3 +5,5 @@ transformers==4.41.2
 numpy<2
 jupyter
 accelerate==0.33.0
+evaluate
+pandas
